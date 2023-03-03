@@ -1,0 +1,307 @@
+Body{
+  background-color: #9bc399;
+}
+/* Navbar */
+.navbar{
+  display: flex;
+  width: 100%;
+}
+#name{
+  color: #1d4024;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 2rem;
+  
+}
+
+#navLink{
+  display: inline-block;
+  margin-top: 2rem;
+
+}
+#navLink li{
+  display: inline;
+  margin: 3rem;
+  color: #1d4024;
+}
+#navLink li a{
+  text-decoration: none;
+  color: #1d4024;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+/* Content */
+.content{
+  background-color: #415540;
+  height: 20rem;
+  display: flex;
+  width: 100%;
+}
+#one{
+  flex: 1;
+  /* background-color: lightblue; */
+}
+#one p{
+  font-family: 'Nunito', sans-serif;
+  color: snow;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 6rem;
+  padding: 2rem;
+}
+
+#two{
+  flex: 1;
+  /* background-color: coral; */
+}
+#two img{
+  height: auto;
+  width: auto;
+ 
+}
+
+/* BlogSpace */
+.blogSpace{
+  display: flex;
+}
+.design{
+  font-family: 'Nunito', sans-serif;
+  border: 1px solid #1d4024;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0.3rem;
+  background-color: #415540;
+  /* opacity: 20%; */
+  color: snow;
+  font-family: 'Poppins', sans-serif;
+}
+.title{
+  font-family: 'Nunito', sans-serif;
+  color: #426e53;
+  text-align: center;
+  font-size: xx-large;
+
+}
+
+
+
+/* Aim */
+.servTitle{
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: x-large;
+  color: #426e53;
+  
+
+}
+.Aim p{
+  color: #426e53;
+  font-family: 'Poppins', sans-serif;
+  margin: 0.5rem;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  font-size: large;
+}
+
+
+
+/* footer */
+.footer{
+  width: 100%;
+  height: 10rem;
+  background-color: #1d4024;
+  display: flex;
+}
+
+#footName{
+  flex: 1;
+  color: snow;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+#social{
+  flex: 1;
+}
+#social ul{
+  text-align: right;
+  margin-right: 2rem;
+}
+#social ul li{
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+#insta{
+  height: 30px;
+  width: auto;
+  
+}
+#fb{
+  height: 28px;
+  width: auto;
+}
+#wp{
+  height: 30px;
+  width: auto;
+}
+#li{
+  height: 30px;
+  width: auto;
+}
+
+.copyR{
+  margin-left: 3.3rem;
+  color: aliceblue;
+  font-family: 'Nunito', sans-serif;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+#manage{
+  color: lightgray;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 3rem;
+  opacity: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 750px){
+  /* Navbar */
+  #navLink li{
+    display: inline;
+    margin: 2rem;
+    color: #1d4024;
+  }
+  
+
+  /* Content */ 
+  #one p{
+    font-family: 'Nunito', sans-serif;
+    color: snow;
+    text-align: center;
+    /* vertical-align: middle; */
+    margin-top: 3.5rem;
+    padding: 2rem;
+    text-overflow: wrap;
+  }
+  #two{
+    flex: 1;
+    text-align: center;
+    /* background-color: coral; */
+  }
+  #two img{
+    height: 200px;
+    width: auto;
+    padding: 3.5rem;
+  }
+}
+
+
+
+@media screen and (max-width: 630px){
+  /* Navbar */
+  #navLink li{
+    display: inline;
+    margin: 1rem;
+    color: #1d4024;
+  }
+  #one p{
+    font-family: 'Nunito', sans-serif;
+    color: snow;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+
+  /* BlogSpace */
+  .blogSpace{
+    display: flex;
+    flex-direction: column;
+  }
+  .design{
+    margin: 1rem;
+  }
+
+  /* footer Manage */
+  .footer{
+    height: auto;
+  }
+  #manage{
+    margin: 0;
+    margin-right: 1rem;
+  }
+
+  
+}
+
+
+
+@media screen and (max-width: 533px){
+  /* Navbar */
+  .navbar{
+    flex-direction: column;
+  }
+  #name{
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  #links0{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  ul#navLink{
+    padding: 0%;
+    /* margin: 0; */
+  }
+  #navLink li{
+    display: flex;
+    flex-wrap: wrap;
+    color: #1d4024;
+    display: inline-block;
+    text-align: center;
+  }
+
+
+  /* Content */
+  .content{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #one p{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  #two img{
+    height: 150px;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 1rem;
+    
+  }
+
+  /* Footer */
+  #social ul{
+    text-align: center;
+  }
+  .copyR{
+    text-align: center;
+  }
+  .footer{
+  flex-direction: column;
+  }
+  
+  #footName{
+    text-align: center;
+  }
+  
+}
+
+
